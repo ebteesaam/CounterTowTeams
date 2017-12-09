@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     public void displayForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_scoreB);
         scoreView.setText(String.valueOf(score));
+        //hello
     }
     /**
      * Displays Reset the given score .
